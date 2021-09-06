@@ -7,8 +7,7 @@
   "content_scripts": [
       {
           "matches": [
-              "https://*.okta.com/app/UserHome",
-              "file://*"
+              "https://*.okta.com/app/UserHome"
           ],
           "js": [
               "content.js"
